@@ -1,0 +1,1381 @@
+D:\Anaconda\envs\python36\python.exe D:/chrome/federated-learning-master/federated-learning-master/main_fed.py
+D:\Anaconda\envs\python36\lib\site-packages\numpy\core\__init__.py:29: UserWarning: loaded more than 1 DLL from .libs:
+D:\Anaconda\envs\python36\lib\site-packages\numpy\.libs\libopenblas.IPBC74C7KURV7CB2PKT5Z5FNR3SIBV4J.gfortran-win_amd64.dll
+D:\Anaconda\envs\python36\lib\site-packages\numpy\.libs\libopenblas.TXA6YQSD3GCQQC22GEQ54J2UDCXDXHWN.gfortran-win_amd64.dll
+  stacklevel=1)
+D:\Anaconda\envs\python36\lib\site-packages\torchvision\datasets\mnist.py:43: UserWarning: train_labels has been renamed targets
+  warnings.warn("train_labels has been renamed targets")
+MLP(
+  (layer_input): Linear(in_features=784, out_features=200, bias=True)
+  (relu): ReLU()
+  (dropout): Dropout(p=0.5)
+  (layer_hidden): Linear(in_features=200, out_features=10, bias=True)
+)
+numclient  67,Training accuracy: 20.00
+numclient  67,Testing accuracy: 21.00
+numclient  76,Training accuracy: 26.00
+numclient  76,Testing accuracy: 26.00
+numclient  70,Training accuracy: 19.00
+numclient  70,Testing accuracy: 20.00
+numclient  87,Training accuracy: 20.00
+numclient  87,Testing accuracy: 19.00
+numclient  84,Training accuracy: 12.00
+numclient  84,Testing accuracy: 11.00
+numclient  43,Training accuracy: 20.00
+numclient  43,Testing accuracy: 19.00
+numclient  68,Training accuracy: 24.00
+numclient  68,Testing accuracy: 24.00
+numclient  50,Training accuracy: 26.00
+numclient  50,Testing accuracy: 27.00
+numclient  29,Training accuracy: 25.00
+numclient  29,Testing accuracy: 25.00
+numclient  89,Training accuracy: 23.00
+numclient  89,Testing accuracy: 23.00
+Round   0, Average loss 0.121
+numclient   0,Training accuracy: 33.00
+numclient   0,Testing accuracy: 34.00
+numclient  50,Training accuracy: 27.00
+numclient  50,Testing accuracy: 27.00
+numclient  55,Training accuracy: 13.00
+numclient  55,Testing accuracy: 13.00
+numclient  44,Training accuracy: 26.00
+numclient  44,Testing accuracy: 26.00
+numclient  91,Training accuracy: 26.00
+numclient  91,Testing accuracy: 26.00
+numclient  58,Training accuracy: 29.00
+numclient  58,Testing accuracy: 28.00
+numclient  30,Training accuracy: 26.00
+numclient  30,Testing accuracy: 26.00
+numclient   7,Training accuracy: 31.00
+numclient   7,Testing accuracy: 31.00
+numclient  82,Training accuracy: 27.00
+numclient  82,Testing accuracy: 27.00
+numclient  41,Training accuracy: 30.00
+numclient  41,Testing accuracy: 29.00
+Round   1, Average loss 0.099
+numclient   1,Training accuracy: 25.00
+numclient   1,Testing accuracy: 25.00
+numclient  17,Training accuracy: 22.00
+numclient  17,Testing accuracy: 22.00
+numclient  38,Training accuracy: 40.00
+numclient  38,Testing accuracy: 40.00
+numclient  22,Training accuracy: 34.00
+numclient  22,Testing accuracy: 34.00
+numclient  50,Training accuracy: 36.00
+numclient  50,Testing accuracy: 37.00
+numclient  95,Training accuracy: 26.00
+numclient  95,Testing accuracy: 26.00
+numclient  21,Training accuracy: 32.00
+numclient  21,Testing accuracy: 32.00
+numclient  57,Training accuracy: 36.00
+numclient  57,Testing accuracy: 35.00
+numclient  42,Training accuracy: 36.00
+numclient  42,Testing accuracy: 35.00
+numclient  86,Training accuracy: 33.00
+numclient  86,Testing accuracy: 33.00
+Round   2, Average loss 0.075
+numclient  10,Training accuracy: 38.00
+numclient  10,Testing accuracy: 38.00
+numclient  38,Training accuracy: 43.00
+numclient  38,Testing accuracy: 44.00
+numclient  23,Training accuracy: 44.00
+numclient  23,Testing accuracy: 44.00
+numclient  43,Training accuracy: 35.00
+numclient  43,Testing accuracy: 35.00
+numclient   7,Training accuracy: 44.00
+numclient   7,Testing accuracy: 43.00
+numclient  50,Training accuracy: 45.00
+numclient  50,Testing accuracy: 45.00
+numclient  66,Training accuracy: 40.00
+numclient  66,Testing accuracy: 39.00
+numclient  46,Training accuracy: 49.00
+numclient  46,Testing accuracy: 49.00
+numclient  16,Training accuracy: 40.00
+numclient  16,Testing accuracy: 39.00
+numclient  13,Training accuracy: 45.00
+numclient  13,Testing accuracy: 44.00
+Round   3, Average loss 0.076
+numclient  57,Training accuracy: 49.00
+numclient  57,Testing accuracy: 48.00
+numclient  35,Training accuracy: 32.00
+numclient  35,Testing accuracy: 31.00
+numclient  25,Training accuracy: 46.00
+numclient  25,Testing accuracy: 44.00
+numclient  67,Training accuracy: 46.00
+numclient  67,Testing accuracy: 46.00
+numclient  37,Training accuracy: 51.00
+numclient  37,Testing accuracy: 52.00
+numclient  20,Training accuracy: 42.00
+numclient  20,Testing accuracy: 41.00
+numclient  83,Training accuracy: 39.00
+numclient  83,Testing accuracy: 39.00
+numclient  10,Training accuracy: 47.00
+numclient  10,Testing accuracy: 47.00
+numclient  34,Training accuracy: 51.00
+numclient  34,Testing accuracy: 52.00
+numclient  11,Training accuracy: 39.00
+numclient  11,Testing accuracy: 39.00
+Round   4, Average loss 0.056
+numclient  81,Training accuracy: 71.00
+numclient  81,Testing accuracy: 73.00
+numclient  32,Training accuracy: 38.00
+numclient  32,Testing accuracy: 39.00
+numclient  54,Training accuracy: 49.00
+numclient  54,Testing accuracy: 49.00
+numclient  26,Training accuracy: 40.00
+numclient  26,Testing accuracy: 39.00
+numclient  23,Training accuracy: 52.00
+numclient  23,Testing accuracy: 52.00
+numclient  82,Training accuracy: 42.00
+numclient  82,Testing accuracy: 42.00
+numclient  30,Training accuracy: 45.00
+numclient  30,Testing accuracy: 46.00
+numclient  76,Training accuracy: 50.00
+numclient  76,Testing accuracy: 50.00
+numclient   2,Training accuracy: 41.00
+numclient   2,Testing accuracy: 41.00
+numclient  40,Training accuracy: 42.00
+numclient  40,Testing accuracy: 42.00
+Round   5, Average loss 0.052
+numclient   0,Training accuracy: 70.00
+numclient   0,Testing accuracy: 69.00
+numclient  20,Training accuracy: 46.00
+numclient  20,Testing accuracy: 46.00
+numclient  51,Training accuracy: 48.00
+numclient  51,Testing accuracy: 49.00
+numclient  93,Training accuracy: 47.00
+numclient  93,Testing accuracy: 47.00
+numclient  76,Training accuracy: 56.00
+numclient  76,Testing accuracy: 57.00
+numclient  40,Training accuracy: 42.00
+numclient  40,Testing accuracy: 42.00
+numclient  27,Training accuracy: 33.00
+numclient  27,Testing accuracy: 34.00
+numclient  69,Training accuracy: 56.00
+numclient  69,Testing accuracy: 57.00
+numclient  10,Training accuracy: 53.00
+numclient  10,Testing accuracy: 54.00
+numclient  11,Training accuracy: 37.00
+numclient  11,Testing accuracy: 38.00
+Round   6, Average loss 0.048
+numclient  36,Training accuracy: 56.00
+numclient  36,Testing accuracy: 56.00
+numclient  58,Training accuracy: 45.00
+numclient  58,Testing accuracy: 44.00
+numclient  64,Training accuracy: 39.00
+numclient  64,Testing accuracy: 39.00
+numclient  23,Training accuracy: 53.00
+numclient  23,Testing accuracy: 53.00
+numclient  99,Training accuracy: 65.00
+numclient  99,Testing accuracy: 65.00
+numclient   4,Training accuracy: 61.00
+numclient   4,Testing accuracy: 61.00
+numclient  65,Training accuracy: 62.00
+numclient  65,Testing accuracy: 61.00
+numclient  84,Training accuracy: 42.00
+numclient  84,Testing accuracy: 41.00
+numclient  79,Training accuracy: 51.00
+numclient  79,Testing accuracy: 50.00
+numclient  18,Training accuracy: 46.00
+numclient  18,Testing accuracy: 45.00
+Round   7, Average loss 0.066
+numclient  50,Training accuracy: 68.00
+numclient  50,Testing accuracy: 68.00
+numclient  43,Training accuracy: 50.00
+numclient  43,Testing accuracy: 50.00
+numclient  71,Training accuracy: 44.00
+numclient  71,Testing accuracy: 45.00
+numclient  64,Training accuracy: 39.00
+numclient  64,Testing accuracy: 38.00
+numclient   4,Training accuracy: 57.00
+numclient   4,Testing accuracy: 58.00
+numclient  98,Training accuracy: 55.00
+numclient  98,Testing accuracy: 55.00
+numclient  10,Training accuracy: 54.00
+numclient  10,Testing accuracy: 54.00
+numclient  84,Training accuracy: 41.00
+numclient  84,Testing accuracy: 40.00
+numclient  81,Training accuracy: 63.00
+numclient  81,Testing accuracy: 63.00
+numclient  89,Training accuracy: 57.00
+numclient  89,Testing accuracy: 56.00
+Round   8, Average loss 0.049
+numclient  65,Training accuracy: 69.00
+numclient  65,Testing accuracy: 69.00
+numclient  77,Training accuracy: 61.00
+numclient  77,Testing accuracy: 61.00
+numclient  80,Training accuracy: 65.00
+numclient  80,Testing accuracy: 66.00
+numclient  32,Training accuracy: 51.00
+numclient  32,Testing accuracy: 51.00
+numclient  11,Training accuracy: 47.00
+numclient  11,Testing accuracy: 47.00
+numclient  83,Training accuracy: 47.00
+numclient  83,Testing accuracy: 47.00
+numclient  60,Training accuracy: 54.00
+numclient  60,Testing accuracy: 54.00
+numclient   4,Training accuracy: 61.00
+numclient   4,Testing accuracy: 61.00
+numclient  56,Training accuracy: 48.00
+numclient  56,Testing accuracy: 48.00
+numclient  35,Training accuracy: 36.00
+numclient  35,Testing accuracy: 35.00
+Round   9, Average loss 0.048
+Training accuracy: 89.00
+Testing accuracy: 89.00
+
+Process finished with exit code 0
+
+
+numclient   8,Training accuracy: 19.00
+Testing accuracy: 19.00
+Round   0, Average loss 0.190
+numclient   5,Training accuracy: 19.00
+Testing accuracy: 20.00
+Round   1, Average loss 0.161
+numclient   1,Training accuracy: 19.00
+Testing accuracy: 19.00
+Round   2, Average loss 0.122
+numclient   9,Training accuracy: 21.00
+Testing accuracy: 21.00
+Round   3, Average loss 0.110
+numclient   9,Training accuracy: 21.00
+Testing accuracy: 21.00
+Round   4, Average loss 0.004
+numclient   5,Training accuracy: 26.00
+Testing accuracy: 26.00
+Round   5, Average loss 0.070
+numclient   2,Training accuracy: 26.00
+Testing accuracy: 26.00
+Round   6, Average loss 0.029
+numclient   3,Training accuracy: 26.00
+Testing accuracy: 25.00
+Round   7, Average loss 0.107
+numclient   2,Training accuracy: 25.00
+Testing accuracy: 25.00
+Round   8, Average loss 0.033
+numclient   9,Training accuracy: 32.00
+Testing accuracy: 32.00
+Round   9, Average loss 0.017
+Training accuracy: 32.00
+Testing accuracy: 32.00
+
+5epoch，10个client：
+D:\Anaconda\envs\python36\python.exe D:/chrome/federated-learning-master/federated-learning-master/main_fed.py
+D:\Anaconda\envs\python36\lib\site-packages\numpy\core\__init__.py:29: UserWarning: loaded more than 1 DLL from .libs:
+D:\Anaconda\envs\python36\lib\site-packages\numpy\.libs\libopenblas.IPBC74C7KURV7CB2PKT5Z5FNR3SIBV4J.gfortran-win_amd64.dll
+D:\Anaconda\envs\python36\lib\site-packages\numpy\.libs\libopenblas.TXA6YQSD3GCQQC22GEQ54J2UDCXDXHWN.gfortran-win_amd64.dll
+  stacklevel=1)
+D:\Anaconda\envs\python36\lib\site-packages\torchvision\datasets\mnist.py:43: UserWarning: train_labels has been renamed targets
+  warnings.warn("train_labels has been renamed targets")
+MLP(
+  (layer_input): Linear(in_features=784, out_features=200, bias=True)
+  (relu): ReLU()
+  (dropout): Dropout(p=0.5)
+  (layer_hidden): Linear(in_features=200, out_features=10, bias=True)
+)
+numclient   0,Training accuracy: 21.00
+Testing accuracy: 21.00
+21.0
+numclient  10,Training accuracy: 17.00
+Testing accuracy: 17.00
+17.0
+numclient  20,Training accuracy: 19.00
+Testing accuracy: 19.00
+19.0
+numclient  30,Training accuracy: 24.00
+Testing accuracy: 25.00
+25.0
+numclient  40,Training accuracy: 21.00
+Testing accuracy: 22.00
+22.0
+numclient  50,Training accuracy: 23.00
+Testing accuracy: 22.00
+22.0
+numclient  60,Training accuracy: 28.00
+Testing accuracy: 27.00
+27.0
+numclient  70,Training accuracy: 35.00
+Testing accuracy: 34.00
+34.0
+numclient  80,Training accuracy: 33.00
+Testing accuracy: 32.00
+32.0
+numclient  90,Training accuracy: 42.00
+Testing accuracy: 41.00
+41.0
+Round   0, Average loss 0.149
+numclient   0,Training accuracy: 35.00
+Testing accuracy: 36.00
+57.0
+numclient  10,Training accuracy: 18.00
+Testing accuracy: 18.00
+35.0
+numclient  20,Training accuracy: 23.00
+Testing accuracy: 23.00
+42.0
+numclient  30,Training accuracy: 30.00
+Testing accuracy: 31.00
+56.0
+numclient  40,Training accuracy: 28.00
+Testing accuracy: 29.00
+51.0
+numclient  50,Training accuracy: 26.00
+Testing accuracy: 26.00
+48.0
+numclient  60,Training accuracy: 30.00
+Testing accuracy: 29.00
+56.0
+numclient  70,Training accuracy: 38.00
+Testing accuracy: 37.00
+71.0
+numclient  80,Training accuracy: 36.00
+Testing accuracy: 35.00
+67.0
+numclient  90,Training accuracy: 46.00
+Testing accuracy: 46.00
+87.0
+Round   1, Average loss 0.090
+numclient   0,Training accuracy: 48.00
+Testing accuracy: 48.00
+105.0
+numclient  10,Training accuracy: 22.00
+Testing accuracy: 23.00
+58.0
+numclient  20,Training accuracy: 33.00
+Testing accuracy: 33.00
+75.0
+numclient  30,Training accuracy: 42.00
+Testing accuracy: 41.00
+97.0
+numclient  40,Training accuracy: 32.00
+Testing accuracy: 33.00
+84.0
+numclient  50,Training accuracy: 30.00
+Testing accuracy: 29.00
+77.0
+numclient  60,Training accuracy: 33.00
+Testing accuracy: 33.00
+89.0
+numclient  70,Training accuracy: 40.00
+Testing accuracy: 39.00
+110.0
+numclient  80,Training accuracy: 37.00
+Testing accuracy: 36.00
+103.0
+numclient  90,Training accuracy: 46.00
+Testing accuracy: 46.00
+133.0
+Round   2, Average loss 0.070
+numclient   0,Training accuracy: 54.00
+Testing accuracy: 55.00
+160.0
+numclient  10,Training accuracy: 29.00
+Testing accuracy: 29.00
+87.0
+numclient  20,Training accuracy: 40.00
+Testing accuracy: 39.00
+114.0
+numclient  30,Training accuracy: 46.00
+Testing accuracy: 46.00
+143.0
+numclient  40,Training accuracy: 36.00
+Testing accuracy: 37.00
+121.0
+numclient  50,Training accuracy: 34.00
+Testing accuracy: 34.00
+111.0
+numclient  60,Training accuracy: 37.00
+Testing accuracy: 38.00
+127.0
+numclient  70,Training accuracy: 42.00
+Testing accuracy: 42.00
+152.0
+numclient  80,Training accuracy: 41.00
+Testing accuracy: 41.00
+144.0
+numclient  90,Training accuracy: 51.00
+Testing accuracy: 50.00
+183.0
+Round   3, Average loss 0.057
+numclient   0,Training accuracy: 59.00
+Testing accuracy: 60.00
+220.0
+numclient  10,Training accuracy: 35.00
+Testing accuracy: 36.00
+123.0
+numclient  20,Training accuracy: 44.00
+Testing accuracy: 43.00
+157.0
+numclient  30,Training accuracy: 49.00
+Testing accuracy: 49.00
+192.0
+numclient  40,Training accuracy: 37.00
+Testing accuracy: 38.00
+159.0
+numclient  50,Training accuracy: 39.00
+Testing accuracy: 39.00
+150.0
+numclient  60,Training accuracy: 42.00
+Testing accuracy: 43.00
+170.0
+numclient  70,Training accuracy: 47.00
+Testing accuracy: 47.00
+199.0
+numclient  80,Training accuracy: 43.00
+Testing accuracy: 43.00
+187.0
+numclient  90,Training accuracy: 55.00
+Testing accuracy: 55.00
+238.0
+Round   4, Average loss 0.051
+每个工人所有轮次准确度
+44.0
+24.6
+31.4
+38.4
+31.8
+30.0
+34.0
+39.8
+37.4
+47.6
+平均数
+35.9
+Training accuracy: 70.00
+Testing accuracy: 70.00
+
+Process finished with exit code 0
+
+
+
+D:\Anaconda\envs\python36\python.exe D:/chrome/federated-learning-master/federated-learning-master/main_fed.py
+D:\Anaconda\envs\python36\lib\site-packages\numpy\core\__init__.py:29: UserWarning: loaded more than 1 DLL from .libs:
+D:\Anaconda\envs\python36\lib\site-packages\numpy\.libs\libopenblas.IPBC74C7KURV7CB2PKT5Z5FNR3SIBV4J.gfortran-win_amd64.dll
+D:\Anaconda\envs\python36\lib\site-packages\numpy\.libs\libopenblas.TXA6YQSD3GCQQC22GEQ54J2UDCXDXHWN.gfortran-win_amd64.dll
+  stacklevel=1)
+D:\Anaconda\envs\python36\lib\site-packages\torchvision\datasets\mnist.py:43: UserWarning: train_labels has been renamed targets
+  warnings.warn("train_labels has been renamed targets")
+MLP(
+  (layer_input): Linear(in_features=784, out_features=200, bias=True)
+  (relu): ReLU()
+  (dropout): Dropout(p=0.5)
+  (layer_hidden): Linear(in_features=200, out_features=10, bias=True)
+)
+numclient   0,Training accuracy: 20.00
+Testing accuracy: 19.00
+19.0
+numclient  10,Training accuracy: 25.00
+Testing accuracy: 25.00
+25.0
+numclient  20,Training accuracy: 18.00
+Testing accuracy: 18.00
+18.0
+numclient  30,Training accuracy: 19.00
+Testing accuracy: 19.00
+19.0
+numclient  40,Training accuracy: 39.00
+Testing accuracy: 39.00
+39.0
+numclient  50,Training accuracy: 27.00
+Testing accuracy: 26.00
+26.0
+numclient  60,Training accuracy: 23.00
+Testing accuracy: 23.00
+23.0
+numclient  70,Training accuracy: 35.00
+Testing accuracy: 36.00
+36.0
+numclient  80,Training accuracy: 31.00
+Testing accuracy: 31.00
+31.0
+numclient  90,Training accuracy: 39.00
+Testing accuracy: 40.00
+40.0
+Round   0, Average loss 0.116
+numclient   0,Training accuracy: 28.00
+Testing accuracy: 27.00
+46.0
+numclient  10,Training accuracy: 31.00
+Testing accuracy: 31.00
+56.0
+numclient  20,Training accuracy: 21.00
+Testing accuracy: 21.00
+39.0
+numclient  30,Training accuracy: 29.00
+Testing accuracy: 30.00
+49.0
+numclient  40,Training accuracy: 42.00
+Testing accuracy: 41.00
+80.0
+numclient  50,Training accuracy: 34.00
+Testing accuracy: 33.00
+59.0
+numclient  60,Training accuracy: 28.00
+Testing accuracy: 28.00
+51.0
+numclient  70,Training accuracy: 39.00
+Testing accuracy: 39.00
+75.0
+numclient  80,Training accuracy: 36.00
+Testing accuracy: 36.00
+67.0
+numclient  90,Training accuracy: 41.00
+Testing accuracy: 41.00
+81.0
+Round   1, Average loss 0.067
+numclient   0,Training accuracy: 38.00
+Testing accuracy: 38.00
+84.0
+numclient  10,Training accuracy: 39.00
+Testing accuracy: 39.00
+95.0
+numclient  20,Training accuracy: 25.00
+Testing accuracy: 26.00
+65.0
+numclient  30,Training accuracy: 38.00
+Testing accuracy: 39.00
+88.0
+numclient  40,Training accuracy: 45.00
+Testing accuracy: 45.00
+125.0
+numclient  50,Training accuracy: 36.00
+Testing accuracy: 35.00
+94.0
+numclient  60,Training accuracy: 28.00
+Testing accuracy: 28.00
+79.0
+numclient  70,Training accuracy: 43.00
+Testing accuracy: 43.00
+118.0
+numclient  80,Training accuracy: 41.00
+Testing accuracy: 40.00
+107.0
+numclient  90,Training accuracy: 44.00
+Testing accuracy: 44.00
+125.0
+Round   2, Average loss 0.052
+numclient   0,Training accuracy: 45.00
+Testing accuracy: 45.00
+129.0
+numclient  10,Training accuracy: 45.00
+Testing accuracy: 45.00
+140.0
+numclient  20,Training accuracy: 31.00
+Testing accuracy: 32.00
+97.0
+numclient  30,Training accuracy: 44.00
+Testing accuracy: 45.00
+133.0
+numclient  40,Training accuracy: 49.00
+Testing accuracy: 49.00
+174.0
+numclient  50,Training accuracy: 41.00
+Testing accuracy: 40.00
+134.0
+numclient  60,Training accuracy: 31.00
+Testing accuracy: 31.00
+110.0
+numclient  70,Training accuracy: 46.00
+Testing accuracy: 46.00
+164.0
+numclient  80,Training accuracy: 45.00
+Testing accuracy: 45.00
+152.0
+numclient  90,Training accuracy: 46.00
+Testing accuracy: 46.00
+171.0
+Round   3, Average loss 0.041
+numclient   0,Training accuracy: 52.00
+Testing accuracy: 52.00
+181.0
+numclient  10,Training accuracy: 52.00
+Testing accuracy: 51.00
+191.0
+numclient  20,Training accuracy: 38.00
+Testing accuracy: 38.00
+135.0
+numclient  30,Training accuracy: 49.00
+Testing accuracy: 49.00
+182.0
+numclient  40,Training accuracy: 54.00
+Testing accuracy: 54.00
+228.0
+numclient  50,Training accuracy: 45.00
+Testing accuracy: 44.00
+178.0
+numclient  60,Training accuracy: 36.00
+Testing accuracy: 36.00
+146.0
+numclient  70,Training accuracy: 49.00
+Testing accuracy: 48.00
+212.0
+numclient  80,Training accuracy: 45.00
+Testing accuracy: 45.00
+197.0
+numclient  90,Training accuracy: 46.00
+Testing accuracy: 46.00
+217.0
+Round   4, Average loss 0.034
+numclient   0,Training accuracy: 56.00
+Testing accuracy: 55.00
+236.0
+numclient  10,Training accuracy: 55.00
+Testing accuracy: 54.00
+245.0
+numclient  20,Training accuracy: 42.00
+Testing accuracy: 43.00
+178.0
+numclient  30,Training accuracy: 50.00
+Testing accuracy: 51.00
+233.0
+numclient  40,Training accuracy: 56.00
+Testing accuracy: 56.00
+284.0
+numclient  50,Training accuracy: 48.00
+Testing accuracy: 48.00
+226.0
+numclient  60,Training accuracy: 37.00
+Testing accuracy: 37.00
+183.0
+numclient  70,Training accuracy: 55.00
+Testing accuracy: 54.00
+266.0
+numclient  80,Training accuracy: 47.00
+Testing accuracy: 47.00
+244.0
+numclient  90,Training accuracy: 49.00
+Testing accuracy: 49.00
+266.0
+Round   5, Average loss 0.031
+numclient   0,Training accuracy: 60.00
+Testing accuracy: 60.00
+296.0
+numclient  10,Training accuracy: 57.00
+Testing accuracy: 57.00
+302.0
+numclient  20,Training accuracy: 45.00
+Testing accuracy: 45.00
+223.0
+numclient  30,Training accuracy: 54.00
+Testing accuracy: 55.00
+288.0
+numclient  40,Training accuracy: 58.00
+Testing accuracy: 58.00
+342.0
+numclient  50,Training accuracy: 52.00
+Testing accuracy: 52.00
+278.0
+numclient  60,Training accuracy: 44.00
+Testing accuracy: 43.00
+226.0
+numclient  70,Training accuracy: 55.00
+Testing accuracy: 55.00
+321.0
+numclient  80,Training accuracy: 49.00
+Testing accuracy: 49.00
+293.0
+numclient  90,Training accuracy: 50.00
+Testing accuracy: 50.00
+316.0
+Round   6, Average loss 0.029
+numclient   0,Training accuracy: 60.00
+Testing accuracy: 61.00
+357.0
+numclient  10,Training accuracy: 60.00
+Testing accuracy: 60.00
+362.0
+numclient  20,Training accuracy: 46.00
+Testing accuracy: 47.00
+270.0
+numclient  30,Training accuracy: 55.00
+Testing accuracy: 55.00
+343.0
+numclient  40,Training accuracy: 60.00
+Testing accuracy: 60.00
+402.0
+numclient  50,Training accuracy: 55.00
+Testing accuracy: 55.00
+333.0
+numclient  60,Training accuracy: 44.00
+Testing accuracy: 44.00
+270.0
+numclient  70,Training accuracy: 59.00
+Testing accuracy: 59.00
+380.0
+numclient  80,Training accuracy: 53.00
+Testing accuracy: 53.00
+346.0
+numclient  90,Training accuracy: 52.00
+Testing accuracy: 52.00
+368.0
+Round   7, Average loss 0.023
+numclient   0,Training accuracy: 62.00
+Testing accuracy: 62.00
+419.0
+numclient  10,Training accuracy: 60.00
+Testing accuracy: 61.00
+423.0
+numclient  20,Training accuracy: 49.00
+Testing accuracy: 49.00
+319.0
+numclient  30,Training accuracy: 56.00
+Testing accuracy: 56.00
+399.0
+numclient  40,Training accuracy: 63.00
+Testing accuracy: 63.00
+465.0
+numclient  50,Training accuracy: 57.00
+Testing accuracy: 56.00
+389.0
+numclient  60,Training accuracy: 46.00
+Testing accuracy: 45.00
+315.0
+numclient  70,Training accuracy: 59.00
+Testing accuracy: 59.00
+439.0
+numclient  80,Training accuracy: 56.00
+Testing accuracy: 56.00
+402.0
+numclient  90,Training accuracy: 53.00
+Testing accuracy: 53.00
+421.0
+Round   8, Average loss 0.023
+numclient   0,Training accuracy: 65.00
+Testing accuracy: 65.00
+484.0
+numclient  10,Training accuracy: 63.00
+Testing accuracy: 63.00
+486.0
+numclient  20,Training accuracy: 54.00
+Testing accuracy: 54.00
+373.0
+numclient  30,Training accuracy: 57.00
+Testing accuracy: 58.00
+457.0
+numclient  40,Training accuracy: 64.00
+Testing accuracy: 64.00
+529.0
+numclient  50,Training accuracy: 59.00
+Testing accuracy: 58.00
+447.0
+numclient  60,Training accuracy: 51.00
+Testing accuracy: 51.00
+366.0
+numclient  70,Training accuracy: 65.00
+Testing accuracy: 64.00
+503.0
+numclient  80,Training accuracy: 56.00
+Testing accuracy: 56.00
+458.0
+numclient  90,Training accuracy: 55.00
+Testing accuracy: 55.00
+476.0
+Round   9, Average loss 0.022
+48.4
+48.6
+37.3
+45.7
+52.9
+44.7
+36.6
+50.3
+45.8
+47.6
+45.790000000000006
+Training accuracy: 76.00
+Testing accuracy: 76.00
+
+Process finished with exit code 0
+
+
+
+
+D:\Anaconda\envs\python36\python.exe D:/chrome/federated-learning-master/federated-learning-master/main_fed.py
+D:\Anaconda\envs\python36\lib\site-packages\numpy\core\__init__.py:29: UserWarning: loaded more than 1 DLL from .libs:
+D:\Anaconda\envs\python36\lib\site-packages\numpy\.libs\libopenblas.IPBC74C7KURV7CB2PKT5Z5FNR3SIBV4J.gfortran-win_amd64.dll
+D:\Anaconda\envs\python36\lib\site-packages\numpy\.libs\libopenblas.TXA6YQSD3GCQQC22GEQ54J2UDCXDXHWN.gfortran-win_amd64.dll
+  stacklevel=1)
+D:\Anaconda\envs\python36\lib\site-packages\torchvision\datasets\mnist.py:43: UserWarning: train_labels has been renamed targets
+  warnings.warn("train_labels has been renamed targets")
+MLP(
+  (layer_input): Linear(in_features=784, out_features=200, bias=True)
+  (relu): ReLU()
+  (dropout): Dropout(p=0.5)
+  (layer_hidden): Linear(in_features=200, out_features=10, bias=True)
+)
+numclient   0,Training accuracy: 18.00
+Testing accuracy: 19.00
+19.0
+numclient  10,Training accuracy: 19.00
+Testing accuracy: 19.00
+19.0
+numclient  20,Training accuracy: 25.00
+Testing accuracy: 26.00
+26.0
+numclient  30,Training accuracy: 18.00
+Testing accuracy: 18.00
+18.0
+numclient  40,Training accuracy: 25.00
+Testing accuracy: 25.00
+25.0
+numclient  50,Training accuracy: 19.00
+Testing accuracy: 19.00
+19.0
+numclient  60,Training accuracy: 20.00
+Testing accuracy: 20.00
+20.0
+numclient  70,Training accuracy: 24.00
+Testing accuracy: 24.00
+24.0
+numclient  80,Training accuracy: 27.00
+Testing accuracy: 27.00
+27.0
+numclient  90,Training accuracy: 28.00
+Testing accuracy: 29.00
+29.0
+Round   0, Average loss 0.107
+numclient   0,Training accuracy: 35.00
+Testing accuracy: 35.00
+54.0
+numclient  10,Training accuracy: 26.00
+Testing accuracy: 26.00
+45.0
+numclient  20,Training accuracy: 33.00
+Testing accuracy: 33.00
+59.0
+numclient  30,Training accuracy: 24.00
+Testing accuracy: 25.00
+43.0
+numclient  40,Training accuracy: 28.00
+Testing accuracy: 27.00
+52.0
+numclient  50,Training accuracy: 21.00
+Testing accuracy: 21.00
+40.0
+numclient  60,Training accuracy: 22.00
+Testing accuracy: 22.00
+42.0
+numclient  70,Training accuracy: 32.00
+Testing accuracy: 31.00
+55.0
+numclient  80,Training accuracy: 29.00
+Testing accuracy: 30.00
+57.0
+numclient  90,Training accuracy: 31.00
+Testing accuracy: 31.00
+60.0
+Round   1, Average loss 0.060
+numclient   0,Training accuracy: 49.00
+Testing accuracy: 50.00
+104.0
+numclient  10,Training accuracy: 32.00
+Testing accuracy: 32.00
+77.0
+numclient  20,Training accuracy: 38.00
+Testing accuracy: 38.00
+97.0
+numclient  30,Training accuracy: 31.00
+Testing accuracy: 32.00
+75.0
+numclient  40,Training accuracy: 31.00
+Testing accuracy: 31.00
+83.0
+numclient  50,Training accuracy: 26.00
+Testing accuracy: 26.00
+66.0
+numclient  60,Training accuracy: 26.00
+Testing accuracy: 26.00
+68.0
+numclient  70,Training accuracy: 39.00
+Testing accuracy: 38.00
+93.0
+numclient  80,Training accuracy: 34.00
+Testing accuracy: 34.00
+91.0
+numclient  90,Training accuracy: 34.00
+Testing accuracy: 34.00
+94.0
+Round   2, Average loss 0.047
+numclient   0,Training accuracy: 55.00
+Testing accuracy: 56.00
+160.0
+numclient  10,Training accuracy: 38.00
+Testing accuracy: 39.00
+116.0
+numclient  20,Training accuracy: 42.00
+Testing accuracy: 42.00
+139.0
+numclient  30,Training accuracy: 36.00
+Testing accuracy: 36.00
+111.0
+numclient  40,Training accuracy: 34.00
+Testing accuracy: 33.00
+116.0
+numclient  50,Training accuracy: 30.00
+Testing accuracy: 30.00
+96.0
+numclient  60,Training accuracy: 30.00
+Testing accuracy: 30.00
+98.0
+numclient  70,Training accuracy: 42.00
+Testing accuracy: 41.00
+134.0
+numclient  80,Training accuracy: 35.00
+Testing accuracy: 35.00
+126.0
+numclient  90,Training accuracy: 39.00
+Testing accuracy: 39.00
+133.0
+Round   3, Average loss 0.039
+numclient   0,Training accuracy: 60.00
+Testing accuracy: 60.00
+220.0
+numclient  10,Training accuracy: 44.00
+Testing accuracy: 44.00
+160.0
+numclient  20,Training accuracy: 46.00
+Testing accuracy: 46.00
+185.0
+numclient  30,Training accuracy: 42.00
+Testing accuracy: 41.00
+152.0
+numclient  40,Training accuracy: 40.00
+Testing accuracy: 39.00
+155.0
+numclient  50,Training accuracy: 34.00
+Testing accuracy: 34.00
+130.0
+numclient  60,Training accuracy: 34.00
+Testing accuracy: 33.00
+131.0
+numclient  70,Training accuracy: 48.00
+Testing accuracy: 47.00
+181.0
+numclient  80,Training accuracy: 38.00
+Testing accuracy: 38.00
+164.0
+numclient  90,Training accuracy: 40.00
+Testing accuracy: 41.00
+174.0
+Round   4, Average loss 0.034
+numclient   0,Training accuracy: 65.00
+Testing accuracy: 65.00
+285.0
+numclient  10,Training accuracy: 50.00
+Testing accuracy: 51.00
+211.0
+numclient  20,Training accuracy: 49.00
+Testing accuracy: 49.00
+234.0
+numclient  30,Training accuracy: 44.00
+Testing accuracy: 44.00
+196.0
+numclient  40,Training accuracy: 46.00
+Testing accuracy: 45.00
+200.0
+numclient  50,Training accuracy: 38.00
+Testing accuracy: 38.00
+168.0
+numclient  60,Training accuracy: 34.00
+Testing accuracy: 33.00
+164.0
+numclient  70,Training accuracy: 52.00
+Testing accuracy: 51.00
+232.0
+numclient  80,Training accuracy: 43.00
+Testing accuracy: 43.00
+207.0
+numclient  90,Training accuracy: 45.00
+Testing accuracy: 45.00
+219.0
+Round   5, Average loss 0.030
+numclient   0,Training accuracy: 67.00
+Testing accuracy: 67.00
+352.0
+numclient  10,Training accuracy: 56.00
+Testing accuracy: 56.00
+267.0
+numclient  20,Training accuracy: 53.00
+Testing accuracy: 53.00
+287.0
+numclient  30,Training accuracy: 50.00
+Testing accuracy: 49.00
+245.0
+numclient  40,Training accuracy: 53.00
+Testing accuracy: 52.00
+252.0
+numclient  50,Training accuracy: 43.00
+Testing accuracy: 43.00
+211.0
+numclient  60,Training accuracy: 36.00
+Testing accuracy: 36.00
+200.0
+numclient  70,Training accuracy: 57.00
+Testing accuracy: 56.00
+288.0
+numclient  80,Training accuracy: 46.00
+Testing accuracy: 46.00
+253.0
+numclient  90,Training accuracy: 46.00
+Testing accuracy: 47.00
+266.0
+Round   6, Average loss 0.026
+numclient   0,Training accuracy: 72.00
+Testing accuracy: 71.00
+423.0
+numclient  10,Training accuracy: 58.00
+Testing accuracy: 58.00
+325.0
+numclient  20,Training accuracy: 56.00
+Testing accuracy: 56.00
+343.0
+numclient  30,Training accuracy: 52.00
+Testing accuracy: 51.00
+296.0
+numclient  40,Training accuracy: 57.00
+Testing accuracy: 56.00
+308.0
+numclient  50,Training accuracy: 45.00
+Testing accuracy: 45.00
+256.0
+numclient  60,Training accuracy: 45.00
+Testing accuracy: 44.00
+244.0
+numclient  70,Training accuracy: 57.00
+Testing accuracy: 56.00
+344.0
+numclient  80,Training accuracy: 46.00
+Testing accuracy: 46.00
+299.0
+numclient  90,Training accuracy: 47.00
+Testing accuracy: 47.00
+313.0
+Round   7, Average loss 0.025
+numclient   0,Training accuracy: 73.00
+Testing accuracy: 73.00
+496.0
+numclient  10,Training accuracy: 60.00
+Testing accuracy: 60.00
+385.0
+numclient  20,Training accuracy: 58.00
+Testing accuracy: 58.00
+401.0
+numclient  30,Training accuracy: 55.00
+Testing accuracy: 55.00
+351.0
+numclient  40,Training accuracy: 60.00
+Testing accuracy: 59.00
+367.0
+numclient  50,Training accuracy: 50.00
+Testing accuracy: 50.00
+306.0
+numclient  60,Training accuracy: 43.00
+Testing accuracy: 42.00
+286.0
+numclient  70,Training accuracy: 59.00
+Testing accuracy: 58.00
+402.0
+numclient  80,Training accuracy: 50.00
+Testing accuracy: 50.00
+349.0
+numclient  90,Training accuracy: 49.00
+Testing accuracy: 50.00
+363.0
+Round   8, Average loss 0.023
+numclient   0,Training accuracy: 75.00
+Testing accuracy: 74.00
+570.0
+numclient  10,Training accuracy: 64.00
+Testing accuracy: 64.00
+449.0
+numclient  20,Training accuracy: 61.00
+Testing accuracy: 61.00
+462.0
+numclient  30,Training accuracy: 60.00
+Testing accuracy: 60.00
+411.0
+numclient  40,Training accuracy: 62.00
+Testing accuracy: 61.00
+428.0
+numclient  50,Training accuracy: 52.00
+Testing accuracy: 51.00
+357.0
+numclient  60,Training accuracy: 50.00
+Testing accuracy: 48.00
+334.0
+numclient  70,Training accuracy: 61.00
+Testing accuracy: 60.00
+462.0
+numclient  80,Training accuracy: 54.00
+Testing accuracy: 54.00
+403.0
+numclient  90,Training accuracy: 50.00
+Testing accuracy: 50.00
+413.0
+Round   9, Average loss 0.021
+57.0
+44.9
+46.2
+41.1
+42.8
+35.7
+33.4
+46.2
+40.3
+41.3
+42.89
+Training accuracy: 89.00
+Testing accuracy: 89.00
+
+Process finished with exit code 0
+
+
+D:\Anaconda\envs\python36\python.exe D:/chrome/federated-learning-master/federated-learning-master/main_fed.py
+D:\Anaconda\envs\python36\lib\site-packages\numpy\core\__init__.py:29: UserWarning: loaded more than 1 DLL from .libs:
+D:\Anaconda\envs\python36\lib\site-packages\numpy\.libs\libopenblas.IPBC74C7KURV7CB2PKT5Z5FNR3SIBV4J.gfortran-win_amd64.dll
+D:\Anaconda\envs\python36\lib\site-packages\numpy\.libs\libopenblas.TXA6YQSD3GCQQC22GEQ54J2UDCXDXHWN.gfortran-win_amd64.dll
+  stacklevel=1)
+D:\Anaconda\envs\python36\lib\site-packages\torchvision\datasets\mnist.py:43: UserWarning: train_labels has been renamed targets
+  warnings.warn("train_labels has been renamed targets")
+MLP(
+  (layer_input): Linear(in_features=784, out_features=200, bias=True)
+  (relu): ReLU()
+  (dropout): Dropout(p=0.5)
+  (layer_hidden): Linear(in_features=200, out_features=10, bias=True)
+)
+numclient   0,Training accuracy: 20.00
+Testing accuracy: 19.00
+19.0
+numclient  10,Training accuracy: 21.00
+Testing accuracy: 22.00
+22.0
+numclient  20,Training accuracy: 19.00
+Testing accuracy: 19.00
+19.0
+numclient  30,Training accuracy: 24.00
+Testing accuracy: 24.00
+24.0
+numclient  40,Training accuracy: 27.00
+Testing accuracy: 27.00
+27.0
+numclient  50,Training accuracy: 21.00
+Testing accuracy: 21.00
+21.0
+numclient  60,Training accuracy: 20.00
+Testing accuracy: 20.00
+20.0
+numclient  70,Training accuracy: 25.00
+Testing accuracy: 25.00
+25.0
+numclient  80,Training accuracy: 23.00
+Testing accuracy: 22.00
+22.0
+numclient  90,Training accuracy: 26.00
+Testing accuracy: 26.00
+26.0
+0 1
+0 1
+0 1
+1 0
+1 0
+0 1
+0 1
+1 0
+0 1
+1 0
+Round   0, Average loss 0.126
+numclient   0,Training accuracy: 23.00
+Testing accuracy: 23.00
+42.0
+numclient  10,Training accuracy: 30.00
+Testing accuracy: 30.00
+52.0
+numclient  20,Training accuracy: 25.00
+Testing accuracy: 25.00
+44.0
+numclient  30,Training accuracy: 36.00
+Testing accuracy: 36.00
+60.0
+numclient  40,Training accuracy: 34.00
+Testing accuracy: 34.00
+61.0
+numclient  50,Training accuracy: 23.00
+Testing accuracy: 23.00
+44.0
+numclient  60,Training accuracy: 21.00
+Testing accuracy: 21.00
+41.0
+numclient  70,Training accuracy: 27.00
+Testing accuracy: 27.00
+52.0
+numclient  80,Training accuracy: 22.00
+Testing accuracy: 21.00
+43.0
+numclient  90,Training accuracy: 29.00
+Testing accuracy: 29.00
+55.0
+0 2
+1 1
+0 2
+2 0
+2 0
+0 2
+0 2
+2 0
+0 2
+2 0
+Round   1, Average loss 0.075
+numclient   0,Training accuracy: 36.00
+Testing accuracy: 36.00
+78.0
+numclient  10,Training accuracy: 35.00
+Testing accuracy: 35.00
+87.0
+numclient  20,Training accuracy: 29.00
+Testing accuracy: 29.00
+73.0
+numclient  30,Training accuracy: 40.00
+Testing accuracy: 40.00
+100.0
+numclient  40,Training accuracy: 39.00
+Testing accuracy: 39.00
+100.0
+numclient  50,Training accuracy: 29.00
+Testing accuracy: 29.00
+73.0
+numclient  60,Training accuracy: 24.00
+Testing accuracy: 24.00
+65.0
+numclient  70,Training accuracy: 29.00
+Testing accuracy: 29.00
+81.0
+numclient  80,Training accuracy: 25.00
+Testing accuracy: 24.00
+67.0
+numclient  90,Training accuracy: 31.00
+Testing accuracy: 31.00
+86.0
+1 2
+2 1
+0 3
+3 0
+3 0
+0 3
+0 3
+2 1
+0 3
+2 1
+Round   2, Average loss 0.057
+26.0
+29.0
+24.333333333333332
+33.333333333333336
+33.333333333333336
+24.333333333333332
+21.666666666666668
+27.0
+22.333333333333332
+28.666666666666668
+The average of client's quality: 27.00
+The reputation of effect for client    0: 0.16882353
+The reputation of effect for client   10: 0.42538462
+The reputation of effect for client   20: 0.01000000
+The reputation of effect for client   30: 0.91000000
+The reputation of effect for client   40: 0.91000000
+The reputation of effect for client   50: 0.01000000
+The reputation of effect for client   60: 0.01000000
+The reputation of effect for client   70: 0.42538462
+The reputation of effect for client   80: 0.01000000
+The reputation of effect for client   90: 0.42538462
+The reputation of time for client    0: 0.48926968
+The reputation of time for client   10: 0.28000000
+The reputation of time for client   20: 0.72000000
+The reputation of time for client   30: 0.42827491
+The reputation of time for client   40: 0.91000000
+The reputation of time for client   50: 0.72000000
+The reputation of time for client   60: 0.46000000
+The reputation of time for client   70: 0.28000000
+The reputation of time for client   80: 0.82000000
+The reputation of time for client   90: 0.72000000
+The reputation of place for client    0: 0.56534272
+The reputation of place for client   10: 0.32700000
+The reputation of place for client   20: 0.82300000
+The reputation of place for client   30: 0.53544742
+The reputation of place for client   40: 0.91900000
+The reputation of place for client   50: 0.69800000
+The reputation of place for client   60: 0.41400000
+The reputation of place for client   70: 0.42700000
+The reputation of place for client   80: 0.83800000
+The reputation of place for client   90: 0.69800000
+-0.15155902409394795
+0.2910148402392471
+0.006986343425821507
+-0.0408719037389566
+0.4064517912817007
+-0.03031180481878959
+0.027891163229059837
+0.029288431914224138
+0.021114051166432817
+0.10240440942277297
+-0.13791871192549263
+-0.13288854465890115
+0.23698258540744654
+2.3141834101017307
+The reputation of other sever opinion for client    0: 2.31418341
+0.0029101484023924713
+0.08826502457154961
+0.8619260153842653
+The reputation of other sever opinion for client   10: 0.86192602
+0.26482350461771487
+0.2662906367371374
+0.2658819176997478
+0.4528497416893301
+4.422170336628338
+The reputation of other sever opinion for client   20: 4.42217034
+0.0032137179758778933
+0.03138261324871444
+The reputation of other sever opinion for client   30: 0.03138261
+-0.018801075719920037
+0.2738442140029045
+2.6741447516419763
+The reputation of other sever opinion for client   40: 2.67414475
+-0.04243652674630543
+0.03904762852068377
+0.043112146433500774
+0.4209989264770212
+The reputation of other sever opinion for client   50: 0.42099893
+-0.06971715108321606
+-0.06964728764895785
+0.015707588520199295
+0.15338781414529792
+The reputation of other sever opinion for client   60: 0.15338781
+-0.10912249734764252
+0.004684004211233689
+0.04574025901458934
+The reputation of other sever opinion for client   70: 0.04574026
+0.0814841552669892
+0.08344033142621922
+0.3760856211490437
+3.6725530010762286
+The reputation of other sever opinion for client   80: 3.67255300
+-0.03182739505972907
+0.2329961095579858
+0.2362098275338637
+0.20678205684181494
+2.019269072566227
+The reputation of other sever opinion for client   90: 2.01926907
+The final reputation for client    0: 1.88052370
+The final reputation for client   10: 0.69725470
+The final reputation for client   20: 3.69726777
+The final reputation for client   30: 0.18568535
+The final reputation for client   40: 2.20696496
+The final reputation for client   50: 0.56345066
+The final reputation for client   60: 0.30002709
+The final reputation for client   70: 0.15412458
+The final reputation for client   80: 2.87706668
+The final reputation for client   90: 1.55352951
+Training accuracy: 64.00
+Testing accuracy: 64.00
+
+Process finished with exit code 0
